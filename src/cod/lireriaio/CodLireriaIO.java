@@ -18,9 +18,10 @@ public class CodLireriaIO {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-
-        IO.introducir(variableString);
+    public static void main(String[] args) {   
+        int num = IO.introducirInt(IO.VENTANA);
+        IO.imprimir(num, IO.CONSOLA);
+       
     }
     
 }
